@@ -1,0 +1,17 @@
+---
+- name: Maintenance on TSE
+  hosts: windows
+
+  vars_prompt:
+    - name: "Message"
+      prompt: "Entrez votre message"
+      private: no
+      default: "localhost"
+
+
+  tasks:
+  - name: Ping TSE
+    win_ping:
+
+  - name: send msg
+    win_shell: msg.exe /server:vc65.labvmware.local * "{{ Message }}"
