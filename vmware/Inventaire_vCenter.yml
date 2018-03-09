@@ -3,7 +3,7 @@
   hosts: localhost
 
   vars_prompt:
-    - name: "Your Password"
+    - name: "Your_Password"
       prompt: "Enter_vcenter hostname"
       private: no
 
