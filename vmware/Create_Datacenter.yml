@@ -8,7 +8,7 @@
       module: vmware_datacenter
       hostname: vc65.labvmware.local
       username: administrator@vsphere.local
-      password: 'Espoir@2012'
+      password: 'YourMdp'
       datacenter_name: 'vDc_Ansible'
       state: present
       validate_certs: no
