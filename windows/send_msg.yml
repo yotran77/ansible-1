@@ -1,6 +1,6 @@
 ---
 - name: Maintenance on TSE
-  hosts: windows
+  hosts: all
 
 #  vars_prompt:
 #    - name: "Message"
