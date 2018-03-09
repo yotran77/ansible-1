@@ -8,7 +8,7 @@
       module: vmware_cluster
       hostname: vc65.labvmware.local
       username: administrator@vsphere.local
-      password: 'Espoir@2012'
+      password: 'YourMdp'
       datacenter_name: 'vDc_Ansible'
       cluster_name: C_Ansible
       enable_ha: yes
