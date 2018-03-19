@@ -1,0 +1,17 @@
+---
+- name: Deploy Zabbix Agent to Windows Server
+  hosts: zabbix-client
+
+  tasks:
+  - name: Create temp folder
+    win_file:
+      path: c:\themp
+      state: directory
+
+#  - name: Download Agent
+
+#  - name: Configure agent conf file
+
+#  - name: Instll Agent with conf file
+
+#  - name: Start Zabbix Service
