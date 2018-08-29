@@ -1,0 +1,4 @@
+- name: start a service (smart card)
+  win_service:
+    name: SCardSvr
+    state: started
